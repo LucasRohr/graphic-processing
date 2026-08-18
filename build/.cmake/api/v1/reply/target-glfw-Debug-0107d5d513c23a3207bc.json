@@ -133,15 +133,15 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-src/include"
+					"path" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-src/src"
+					"path" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/src"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-build/src"
+					"path" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-build/src"
 				}
 			],
 			"language" : "C",

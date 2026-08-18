@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos
+CMAKE_SOURCE_DIR = /Users/lucasrohrcarreno/Documents/my-github/graphic-processing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build
+CMAKE_BINARY_DIR = /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Exemplo.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/Exemplo.dir/codegen:
 .PHONY : CMakeFiles/Exemplo.dir/codegen
 
 CMakeFiles/Exemplo.dir/src/Exemplo.cpp.o: CMakeFiles/Exemplo.dir/flags.make
-CMakeFiles/Exemplo.dir/src/Exemplo.cpp.o: /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/src/Exemplo.cpp
+CMakeFiles/Exemplo.dir/src/Exemplo.cpp.o: /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/src/Exemplo.cpp
 CMakeFiles/Exemplo.dir/src/Exemplo.cpp.o: CMakeFiles/Exemplo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Exemplo.dir/src/Exemplo.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Exemplo.dir/src/Exemplo.cpp.o -MF CMakeFiles/Exemplo.dir/src/Exemplo.cpp.o.d -o CMakeFiles/Exemplo.dir/src/Exemplo.cpp.o -c /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/src/Exemplo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Exemplo.dir/src/Exemplo.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Exemplo.dir/src/Exemplo.cpp.o -MF CMakeFiles/Exemplo.dir/src/Exemplo.cpp.o.d -o CMakeFiles/Exemplo.dir/src/Exemplo.cpp.o -c /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/src/Exemplo.cpp
 
 CMakeFiles/Exemplo.dir/src/Exemplo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Exemplo.dir/src/Exemplo.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/src/Exemplo.cpp > CMakeFiles/Exemplo.dir/src/Exemplo.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/src/Exemplo.cpp > CMakeFiles/Exemplo.dir/src/Exemplo.cpp.i
 
 CMakeFiles/Exemplo.dir/src/Exemplo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Exemplo.dir/src/Exemplo.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/src/Exemplo.cpp -o CMakeFiles/Exemplo.dir/src/Exemplo.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/src/Exemplo.cpp -o CMakeFiles/Exemplo.dir/src/Exemplo.cpp.s
 
 CMakeFiles/Exemplo.dir/common/glad.c.o: CMakeFiles/Exemplo.dir/flags.make
-CMakeFiles/Exemplo.dir/common/glad.c.o: /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/common/glad.c
+CMakeFiles/Exemplo.dir/common/glad.c.o: /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common/glad.c
 CMakeFiles/Exemplo.dir/common/glad.c.o: CMakeFiles/Exemplo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Exemplo.dir/common/glad.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Exemplo.dir/common/glad.c.o -MF CMakeFiles/Exemplo.dir/common/glad.c.o.d -o CMakeFiles/Exemplo.dir/common/glad.c.o -c /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/common/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Exemplo.dir/common/glad.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Exemplo.dir/common/glad.c.o -MF CMakeFiles/Exemplo.dir/common/glad.c.o.d -o CMakeFiles/Exemplo.dir/common/glad.c.o -c /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common/glad.c
 
 CMakeFiles/Exemplo.dir/common/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Exemplo.dir/common/glad.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/common/glad.c > CMakeFiles/Exemplo.dir/common/glad.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common/glad.c > CMakeFiles/Exemplo.dir/common/glad.c.i
 
 CMakeFiles/Exemplo.dir/common/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Exemplo.dir/common/glad.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/common/glad.c -o CMakeFiles/Exemplo.dir/common/glad.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common/glad.c -o CMakeFiles/Exemplo.dir/common/glad.c.s
 
 # Object files for target Exemplo
 Exemplo_OBJECTS = \
@@ -113,7 +113,7 @@ Exemplo: CMakeFiles/Exemplo.dir/common/glad.c.o
 Exemplo: CMakeFiles/Exemplo.dir/build.make
 Exemplo: _deps/glfw-build/src/libglfw3.a
 Exemplo: CMakeFiles/Exemplo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Exemplo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Exemplo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Exemplo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,6 +125,6 @@ CMakeFiles/Exemplo.dir/clean:
 .PHONY : CMakeFiles/Exemplo.dir/clean
 
 CMakeFiles/Exemplo.dir/depend:
-	cd /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/CMakeFiles/Exemplo.dir/DependInfo.cmake "--color=$(COLOR)" Exemplo
+	cd /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lucasrohrcarreno/Documents/my-github/graphic-processing /Users/lucasrohrcarreno/Documents/my-github/graphic-processing /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/Exemplo.dir/DependInfo.cmake "--color=$(COLOR)" Exemplo
 .PHONY : CMakeFiles/Exemplo.dir/depend
 

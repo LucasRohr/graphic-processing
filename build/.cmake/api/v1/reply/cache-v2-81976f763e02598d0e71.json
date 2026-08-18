@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build"
+			"value" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -527,7 +527,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/CMakeFiles/pkgRedirects"
+			"value" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -599,7 +599,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos"
+			"value" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1571,7 +1571,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps"
+			"value" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1719,7 +1719,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-build"
+			"value" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-build"
 		},
 		{
 			"name" : "GLFW_BUILD_COCOA",
@@ -1839,7 +1839,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-src"
+			"value" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src"
 		},
 		{
 			"name" : "GLM_BUILD_INSTALL",
@@ -2067,7 +2067,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build"
+			"value" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build"
 		},
 		{
 			"name" : "PGFundamentos_IS_TOP_LEVEL",
@@ -2091,7 +2091,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos"
+			"value" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing"
 		},
 		{
 			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
@@ -2115,7 +2115,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glm-build"
+			"value" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glm-build"
 		},
 		{
 			"name" : "glm_IS_TOP_LEVEL",
@@ -2139,7 +2139,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glm-src"
+			"value" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glm-src"
 		}
 	],
 	"kind" : "cache",

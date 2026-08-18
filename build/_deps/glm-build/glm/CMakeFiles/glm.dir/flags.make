@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glm-src
+CXX_INCLUDES = -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glm-src
 
 CXX_FLAGSarm64 = -g -std=c++17 -arch arm64 -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-switch-default
 

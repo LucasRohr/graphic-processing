@@ -4,7 +4,7 @@
 # compile C with /usr/bin/clang
 C_DEFINES = -D_GLFW_COCOA
 
-C_INCLUDES = -I/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-src/include -I/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-src/src -I/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-build/src
+C_INCLUDES = -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/include -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-build/src
 
 C_FLAGSarm64 = -g -std=c99 -arch arm64 -fPIC -Wall
 

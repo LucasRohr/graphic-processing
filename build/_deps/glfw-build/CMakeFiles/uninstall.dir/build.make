@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos
+CMAKE_SOURCE_DIR = /Users/lucasrohrcarreno/Documents/my-github/graphic-processing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build
+CMAKE_BINARY_DIR = /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include _deps/glfw-build/CMakeFiles/uninstall.dir/compiler_depend.make
 include _deps/glfw-build/CMakeFiles/uninstall.dir/progress.make
 
 _deps/glfw-build/CMakeFiles/uninstall:
-	cd /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-build && /Applications/CMake.app/Contents/bin/cmake -P /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-build/cmake_uninstall.cmake
+	cd /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-build && /Applications/CMake.app/Contents/bin/cmake -P /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-build/cmake_uninstall.cmake
 
 _deps/glfw-build/CMakeFiles/uninstall.dir/codegen:
 .PHONY : _deps/glfw-build/CMakeFiles/uninstall.dir/codegen
@@ -81,10 +81,10 @@ _deps/glfw-build/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : _deps/glfw-build/CMakeFiles/uninstall.dir/build
 
 _deps/glfw-build/CMakeFiles/uninstall.dir/clean:
-	cd /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-build && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-build && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : _deps/glfw-build/CMakeFiles/uninstall.dir/clean
 
 _deps/glfw-build/CMakeFiles/uninstall.dir/depend:
-	cd /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-src /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-build /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-build/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)" uninstall
+	cd /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lucasrohrcarreno/Documents/my-github/graphic-processing /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-build /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-build/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)" uninstall
 .PHONY : _deps/glfw-build/CMakeFiles/uninstall.dir/depend
 

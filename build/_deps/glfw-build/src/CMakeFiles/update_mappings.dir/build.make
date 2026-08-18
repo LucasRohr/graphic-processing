@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos
+CMAKE_SOURCE_DIR = /Users/lucasrohrcarreno/Documents/my-github/graphic-processing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build
+CMAKE_BINARY_DIR = /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include _deps/glfw-build/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include _deps/glfw-build/src/CMakeFiles/update_mappings.dir/progress.make
 
 _deps/glfw-build/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-src/src && /Applications/CMake.app/Contents/bin/cmake -P /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/src && /Applications/CMake.app/Contents/bin/cmake -P /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 _deps/glfw-build/src/CMakeFiles/update_mappings.dir/codegen:
 .PHONY : _deps/glfw-build/src/CMakeFiles/update_mappings.dir/codegen
@@ -82,10 +82,10 @@ _deps/glfw-build/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : _deps/glfw-build/src/CMakeFiles/update_mappings.dir/build
 
 _deps/glfw-build/src/CMakeFiles/update_mappings.dir/clean:
-	cd /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-build/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-build/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : _deps/glfw-build/src/CMakeFiles/update_mappings.dir/clean
 
 _deps/glfw-build/src/CMakeFiles/update_mappings.dir/depend:
-	cd /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-src/src /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-build/src /Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/glfw-build/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)" update_mappings
+	cd /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lucasrohrcarreno/Documents/my-github/graphic-processing /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/src /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-build/src /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-build/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)" update_mappings
 .PHONY : _deps/glfw-build/src/CMakeFiles/update_mappings.dir/depend
 

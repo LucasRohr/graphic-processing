@@ -49,7 +49,11 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2,
+						3,
+						4
 					]
 				},
 				{
@@ -64,7 +68,7 @@
 						3
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build-Debug-ec7e133080bca0eb9b7e.json",
+					"jsonFile" : "directory-_deps.glfw-build-Debug-8a817009cc1c5287ac85.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -74,13 +78,13 @@
 					"source" : "build/_deps/glfw-src",
 					"targetIndexes" : 
 					[
-						3
+						7
 					]
 				},
 				{
 					"build" : "_deps/glfw-build/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build.src-Debug-2c8eb584dfd0bef6edd7.json",
+					"jsonFile" : "directory-_deps.glfw-build.src-Debug-6ecbad5ed82b01056e90.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -90,8 +94,8 @@
 					"source" : "build/_deps/glfw-src/src",
 					"targetIndexes" : 
 					[
-						1,
-						4
+						5,
+						8
 					]
 				},
 				{
@@ -136,7 +140,7 @@
 					"source" : "build/_deps/glm-src/glm",
 					"targetIndexes" : 
 					[
-						2
+						6
 					]
 				}
 			],
@@ -160,7 +164,11 @@
 					"name" : "PGFundamentos",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2,
+						3,
+						4
 					]
 				},
 				{
@@ -178,9 +186,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						1,
-						3,
-						4
+						5,
+						7,
+						8
 					]
 				},
 				{
@@ -197,7 +205,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2
+						6
 					]
 				}
 			],
@@ -206,21 +214,49 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Exemplo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Exemplo-Debug-0563da9ea7276c02f159.json",
+					"jsonFile" : "target-Exemplo-Debug-bf8d0403be7ac4b1b485.json",
 					"name" : "Exemplo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Exemplo3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exemplo3-Debug-d7a3dc0668e79eee8c08.json",
+					"name" : "Exemplo3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExercicioAula03_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExercicioAula03_01-Debug-65019d4bff518c1b7a1f.json",
+					"name" : "ExercicioAula03_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExercicioAula03_02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExercicioAula03_02-Debug-cf4c099f57a5b17f6411.json",
+					"name" : "ExercicioAula03_02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExercicioAula03_03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExercicioAula03_03-Debug-ae04ccd09dec6287b326.json",
+					"name" : "ExercicioAula03_03",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@fa9f4482d3a2b070f206",
-					"jsonFile" : "target-glfw-Debug-e0a7394da62bc2d252f7.json",
+					"jsonFile" : "target-glfw-Debug-0107d5d513c23a3207bc.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "glm::@ce54d98d7b326a3e12a8",
-					"jsonFile" : "target-glm-Debug-c800cddb14e9766b1545.json",
+					"jsonFile" : "target-glm-Debug-f4eb2c21087b5ce32d45.json",
 					"name" : "glm",
 					"projectIndex" : 2
 				},
@@ -244,8 +280,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build",
-		"source" : "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos"
+		"build" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build",
+		"source" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing"
 	},
 	"version" : 
 	{

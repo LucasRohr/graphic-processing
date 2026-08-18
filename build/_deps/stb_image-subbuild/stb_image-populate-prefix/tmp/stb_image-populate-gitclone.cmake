@@ -3,11 +3,11 @@
 
 cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
-if(EXISTS "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-gitclone-lastrun.txt" AND EXISTS "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-gitinfo.txt" AND
-  "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-gitclone-lastrun.txt" IS_NEWER_THAN "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-gitinfo.txt")
+if(EXISTS "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-gitclone-lastrun.txt" AND EXISTS "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-gitinfo.txt" AND
+  "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-gitclone-lastrun.txt" IS_NEWER_THAN "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-gitinfo.txt")
   message(VERBOSE
     "Avoiding repeated git clone, stamp file is up to date: "
-    "'/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-gitclone-lastrun.txt'"
+    "'/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-gitclone-lastrun.txt'"
   )
   return()
 endif()
@@ -22,12 +22,12 @@ else()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/stb_image-src"
+  COMMAND ${CMAKE_COMMAND} -E rm -rf "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-src"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: '/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/stb_image-src'")
+  message(FATAL_ERROR "Failed to remove directory: '/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-src'")
 endif()
 
 # try the clone 1 + N times in case there is an odd git clone issue
@@ -42,7 +42,7 @@ while(error_code AND number_of_tries LESS ${max_tries})
   execute_process(
     COMMAND "/opt/homebrew/bin/git"
             clone --no-checkout --config "advice.detachedHead=false" "https://github.com/nothings/stb.git" "stb_image-src"
-    WORKING_DIRECTORY "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps"
+    WORKING_DIRECTORY "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
   )
@@ -58,7 +58,7 @@ endif()
 execute_process(
   COMMAND "/opt/homebrew/bin/git"
           checkout "master" --
-  WORKING_DIRECTORY "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/stb_image-src"
+  WORKING_DIRECTORY "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-src"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
@@ -71,22 +71,22 @@ if(init_submodules)
   execute_process(
     COMMAND "/opt/homebrew/bin/git" 
             submodule update --recursive --init 
-    WORKING_DIRECTORY "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/stb_image-src"
+    WORKING_DIRECTORY "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-src"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
   )
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: '/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/stb_image-src'")
+  message(FATAL_ERROR "Failed to update submodules in: '/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-src'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E copy "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-gitinfo.txt" "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-gitclone-lastrun.txt"
+  COMMAND ${CMAKE_COMMAND} -E copy "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-gitinfo.txt" "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-gitclone-lastrun.txt"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: '/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: '/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-gitclone-lastrun.txt'")
 endif()

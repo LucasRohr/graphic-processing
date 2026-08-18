@@ -55,7 +55,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CMake.app/Contents/share/cmake-4.4/Modules/Platform/Linker/Apple-AppleClang.cmake"
   "/Applications/CMake.app/Contents/share/cmake-4.4/Modules/Platform/UnixPaths.cmake"
   "/Applications/CMake.app/Contents/share/cmake-4.4/Modules/WriteBasicConfigVersionFile.cmake"
-  "/Users/lucasrohrcarreno/Documents/my-github/PGFundamentos/CMakeLists.txt"
+  "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/CMakeLists.txt"
   "CMakeFiles/4.4.2/CMakeCCompiler.cmake"
   "CMakeFiles/4.4.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.4.2/CMakeSystem.cmake"
@@ -95,6 +95,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Exemplo.dir/DependInfo.cmake"
+  "CMakeFiles/Exemplo3.dir/DependInfo.cmake"
+  "CMakeFiles/ExercicioAula03_01.dir/DependInfo.cmake"
+  "CMakeFiles/ExercicioAula03_02.dir/DependInfo.cmake"
+  "CMakeFiles/ExercicioAula03_03.dir/DependInfo.cmake"
   "_deps/glfw-build/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "_deps/glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "_deps/glfw-build/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
