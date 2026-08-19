@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/ExercicioAula03_04.dir/src/ExercicioAula03_04.cpp.o CMakeFiles/ExercicioAula03_04.dir/common/glad.c.o -o ExercicioAula03_04  _deps/glfw-build/src/libglfw3.a -framework OpenGL -framework Cocoa -framework IOKit -framework CoreFoundation

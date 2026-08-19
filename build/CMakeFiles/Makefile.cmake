@@ -99,6 +99,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ExercicioAula03_01.dir/DependInfo.cmake"
   "CMakeFiles/ExercicioAula03_02.dir/DependInfo.cmake"
   "CMakeFiles/ExercicioAula03_03.dir/DependInfo.cmake"
+  "CMakeFiles/ExercicioAula03_04.dir/DependInfo.cmake"
+  "CMakeFiles/ExercicioAula03_05.dir/DependInfo.cmake"
   "_deps/glfw-build/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "_deps/glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "_deps/glfw-build/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"

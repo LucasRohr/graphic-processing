@@ -53,7 +53,9 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6
 					]
 				},
 				{
@@ -68,7 +70,7 @@
 						3
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build-Debug-8a817009cc1c5287ac85.json",
+					"jsonFile" : "directory-_deps.glfw-build-Debug-894043be05ca3c47375b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -78,13 +80,13 @@
 					"source" : "build/_deps/glfw-src",
 					"targetIndexes" : 
 					[
-						7
+						9
 					]
 				},
 				{
 					"build" : "_deps/glfw-build/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build.src-Debug-6ecbad5ed82b01056e90.json",
+					"jsonFile" : "directory-_deps.glfw-build.src-Debug-0a115f9dfe3df5c3dac8.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -94,8 +96,8 @@
 					"source" : "build/_deps/glfw-src/src",
 					"targetIndexes" : 
 					[
-						5,
-						8
+						7,
+						10
 					]
 				},
 				{
@@ -140,7 +142,7 @@
 					"source" : "build/_deps/glm-src/glm",
 					"targetIndexes" : 
 					[
-						6
+						8
 					]
 				}
 			],
@@ -168,7 +170,9 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6
 					]
 				},
 				{
@@ -186,9 +190,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						5,
 						7,
-						8
+						9,
+						10
 					]
 				},
 				{
@@ -205,7 +209,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6
+						8
 					]
 				}
 			],
@@ -214,36 +218,50 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Exemplo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Exemplo-Debug-bf8d0403be7ac4b1b485.json",
+					"jsonFile" : "target-Exemplo-Debug-1765d169a3fa4412ac4e.json",
 					"name" : "Exemplo",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Exemplo3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Exemplo3-Debug-d7a3dc0668e79eee8c08.json",
+					"jsonFile" : "target-Exemplo3-Debug-35de70b6f20067e6b6d3.json",
 					"name" : "Exemplo3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ExercicioAula03_01::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ExercicioAula03_01-Debug-65019d4bff518c1b7a1f.json",
+					"jsonFile" : "target-ExercicioAula03_01-Debug-ba239035bb95450e264b.json",
 					"name" : "ExercicioAula03_01",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ExercicioAula03_02::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ExercicioAula03_02-Debug-cf4c099f57a5b17f6411.json",
+					"jsonFile" : "target-ExercicioAula03_02-Debug-1c6937431de43788f733.json",
 					"name" : "ExercicioAula03_02",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ExercicioAula03_03::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ExercicioAula03_03-Debug-ae04ccd09dec6287b326.json",
+					"jsonFile" : "target-ExercicioAula03_03-Debug-13c6ef4fcfd91b30bcc8.json",
 					"name" : "ExercicioAula03_03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExercicioAula03_04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExercicioAula03_04-Debug-9cfd627fb0973a570d42.json",
+					"name" : "ExercicioAula03_04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExercicioAula03_05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExercicioAula03_05-Debug-3f404dc39bf959e36cdf.json",
+					"name" : "ExercicioAula03_05",
 					"projectIndex" : 0
 				},
 				{
