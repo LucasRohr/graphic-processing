@@ -5,6 +5,8 @@
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/ExercicioAula03_03.dir
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/ExercicioAula03_04.dir
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/ExercicioAula03_05.dir
+/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/ExercicioAula03_06.dir
+/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/ExercicioAula03_07.dir
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/edit_cache.dir
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/rebuild_cache.dir
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/list_install_components.dir

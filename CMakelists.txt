@@ -51,6 +51,8 @@ set(EXERCISES
     ExercicioAula03_03
     ExercicioAula03_04
     ExercicioAula03_05
+    ExercicioAula03_06
+    ExercicioAula03_07
 )
 
 add_compile_options(-Wno-pragmas)

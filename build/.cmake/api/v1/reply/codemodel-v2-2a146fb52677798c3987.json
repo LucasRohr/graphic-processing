@@ -55,7 +55,9 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8
 					]
 				},
 				{
@@ -70,7 +72,7 @@
 						3
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build-Debug-894043be05ca3c47375b.json",
+					"jsonFile" : "directory-_deps.glfw-build-Debug-5d3da371ab2ae810d01d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -80,13 +82,13 @@
 					"source" : "build/_deps/glfw-src",
 					"targetIndexes" : 
 					[
-						9
+						11
 					]
 				},
 				{
 					"build" : "_deps/glfw-build/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build.src-Debug-0a115f9dfe3df5c3dac8.json",
+					"jsonFile" : "directory-_deps.glfw-build.src-Debug-611075f2660917153cce.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -96,8 +98,8 @@
 					"source" : "build/_deps/glfw-src/src",
 					"targetIndexes" : 
 					[
-						7,
-						10
+						9,
+						12
 					]
 				},
 				{
@@ -142,7 +144,7 @@
 					"source" : "build/_deps/glm-src/glm",
 					"targetIndexes" : 
 					[
-						8
+						10
 					]
 				}
 			],
@@ -172,7 +174,9 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8
 					]
 				},
 				{
@@ -190,9 +194,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						7,
 						9,
-						10
+						11,
+						12
 					]
 				},
 				{
@@ -209,7 +213,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						8
+						10
 					]
 				}
 			],
@@ -218,50 +222,64 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Exemplo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Exemplo-Debug-1765d169a3fa4412ac4e.json",
+					"jsonFile" : "target-Exemplo-Debug-8687173c6c522f8270ac.json",
 					"name" : "Exemplo",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Exemplo3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Exemplo3-Debug-35de70b6f20067e6b6d3.json",
+					"jsonFile" : "target-Exemplo3-Debug-1be18c956df88ee96fae.json",
 					"name" : "Exemplo3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ExercicioAula03_01::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ExercicioAula03_01-Debug-ba239035bb95450e264b.json",
+					"jsonFile" : "target-ExercicioAula03_01-Debug-e1b60e036717b6068d59.json",
 					"name" : "ExercicioAula03_01",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ExercicioAula03_02::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ExercicioAula03_02-Debug-1c6937431de43788f733.json",
+					"jsonFile" : "target-ExercicioAula03_02-Debug-94c231a9eaa775b6fb55.json",
 					"name" : "ExercicioAula03_02",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ExercicioAula03_03::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ExercicioAula03_03-Debug-13c6ef4fcfd91b30bcc8.json",
+					"jsonFile" : "target-ExercicioAula03_03-Debug-2092923b5d6594c81568.json",
 					"name" : "ExercicioAula03_03",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ExercicioAula03_04::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ExercicioAula03_04-Debug-9cfd627fb0973a570d42.json",
+					"jsonFile" : "target-ExercicioAula03_04-Debug-76fee6817aab3e29e9d2.json",
 					"name" : "ExercicioAula03_04",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ExercicioAula03_05::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ExercicioAula03_05-Debug-3f404dc39bf959e36cdf.json",
+					"jsonFile" : "target-ExercicioAula03_05-Debug-21939bdac339caacc90d.json",
 					"name" : "ExercicioAula03_05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExercicioAula03_06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExercicioAula03_06-Debug-c841f05cf94886479c28.json",
+					"name" : "ExercicioAula03_06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExercicioAula03_07::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExercicioAula03_07-Debug-b0b8bd221f5f2fdaee65.json",
+					"name" : "ExercicioAula03_07",
 					"projectIndex" : 0
 				},
 				{
