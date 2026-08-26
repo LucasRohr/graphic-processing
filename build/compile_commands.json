@@ -108,6 +108,30 @@
   "output": "CMakeFiles/ExercicioAula03_07.dir/common/glad.c.o"
 },
 {
+  "directory": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build",
+  "command": "/usr/bin/clang++  -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include/glad -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glm-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -Wno-pragmas -o CMakeFiles/Exemplo5_animacoes.dir/src/Exemplo5_animacoes.cpp.o -c /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/src/Exemplo5_animacoes.cpp",
+  "file": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/src/Exemplo5_animacoes.cpp",
+  "output": "CMakeFiles/Exemplo5_animacoes.dir/src/Exemplo5_animacoes.cpp.o"
+},
+{
+  "directory": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build",
+  "command": "/usr/bin/clang  -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include/glad -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glm-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -Wno-pragmas -o CMakeFiles/Exemplo5_animacoes.dir/common/glad.c.o -c /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common/glad.c",
+  "file": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common/glad.c",
+  "output": "CMakeFiles/Exemplo5_animacoes.dir/common/glad.c.o"
+},
+{
+  "directory": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build",
+  "command": "/usr/bin/clang++  -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include/glad -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glm-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -Wno-pragmas -o CMakeFiles/Aula03_Exercicio.dir/src/Aula03_Exercicio.cpp.o -c /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/src/Aula03_Exercicio.cpp",
+  "file": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/src/Aula03_Exercicio.cpp",
+  "output": "CMakeFiles/Aula03_Exercicio.dir/src/Aula03_Exercicio.cpp.o"
+},
+{
+  "directory": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build",
+  "command": "/usr/bin/clang  -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include/glad -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glm-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -Wno-pragmas -o CMakeFiles/Aula03_Exercicio.dir/common/glad.c.o -c /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common/glad.c",
+  "file": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common/glad.c",
+  "output": "CMakeFiles/Aula03_Exercicio.dir/common/glad.c.o"
+},
+{
   "directory": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-build/src",
   "command": "/usr/bin/clang -D_GLFW_COCOA -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/include -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-build/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/context.c.o -c /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/src/context.c",
   "file": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/src/context.c",

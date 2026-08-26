@@ -279,6 +279,32 @@ ExercicioAula03_07/fast:
 .PHONY : ExercicioAula03_07/fast
 
 #=============================================================================
+# Target rules for targets named Exemplo5_animacoes
+
+# Build rule for target.
+Exemplo5_animacoes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Exemplo5_animacoes
+.PHONY : Exemplo5_animacoes
+
+# fast build rule for target.
+Exemplo5_animacoes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/build
+.PHONY : Exemplo5_animacoes/fast
+
+#=============================================================================
+# Target rules for targets named Aula03_Exercicio
+
+# Build rule for target.
+Aula03_Exercicio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Aula03_Exercicio
+.PHONY : Aula03_Exercicio
+
+# fast build rule for target.
+Aula03_Exercicio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aula03_Exercicio.dir/build.make CMakeFiles/Aula03_Exercicio.dir/build
+.PHONY : Aula03_Exercicio/fast
+
+#=============================================================================
 # Target rules for targets named uninstall
 
 # Build rule for target.
@@ -344,6 +370,8 @@ common/glad.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_05.dir/build.make CMakeFiles/ExercicioAula03_05.dir/common/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_06.dir/build.make CMakeFiles/ExercicioAula03_06.dir/common/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_07.dir/build.make CMakeFiles/ExercicioAula03_07.dir/common/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/common/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aula03_Exercicio.dir/build.make CMakeFiles/Aula03_Exercicio.dir/common/glad.c.o
 .PHONY : common/glad.c.o
 
 common/glad.i: common/glad.c.i
@@ -360,6 +388,8 @@ common/glad.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_05.dir/build.make CMakeFiles/ExercicioAula03_05.dir/common/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_06.dir/build.make CMakeFiles/ExercicioAula03_06.dir/common/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_07.dir/build.make CMakeFiles/ExercicioAula03_07.dir/common/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/common/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aula03_Exercicio.dir/build.make CMakeFiles/Aula03_Exercicio.dir/common/glad.c.i
 .PHONY : common/glad.c.i
 
 common/glad.s: common/glad.c.s
@@ -376,7 +406,33 @@ common/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_05.dir/build.make CMakeFiles/ExercicioAula03_05.dir/common/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_06.dir/build.make CMakeFiles/ExercicioAula03_06.dir/common/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_07.dir/build.make CMakeFiles/ExercicioAula03_07.dir/common/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/common/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aula03_Exercicio.dir/build.make CMakeFiles/Aula03_Exercicio.dir/common/glad.c.s
 .PHONY : common/glad.c.s
+
+src/Aula03_Exercicio.o: src/Aula03_Exercicio.cpp.o
+.PHONY : src/Aula03_Exercicio.o
+
+# target to build an object file
+src/Aula03_Exercicio.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aula03_Exercicio.dir/build.make CMakeFiles/Aula03_Exercicio.dir/src/Aula03_Exercicio.cpp.o
+.PHONY : src/Aula03_Exercicio.cpp.o
+
+src/Aula03_Exercicio.i: src/Aula03_Exercicio.cpp.i
+.PHONY : src/Aula03_Exercicio.i
+
+# target to preprocess a source file
+src/Aula03_Exercicio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aula03_Exercicio.dir/build.make CMakeFiles/Aula03_Exercicio.dir/src/Aula03_Exercicio.cpp.i
+.PHONY : src/Aula03_Exercicio.cpp.i
+
+src/Aula03_Exercicio.s: src/Aula03_Exercicio.cpp.s
+.PHONY : src/Aula03_Exercicio.s
+
+# target to generate assembly for a file
+src/Aula03_Exercicio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aula03_Exercicio.dir/build.make CMakeFiles/Aula03_Exercicio.dir/src/Aula03_Exercicio.cpp.s
+.PHONY : src/Aula03_Exercicio.cpp.s
 
 src/Exemplo.o: src/Exemplo.cpp.o
 .PHONY : src/Exemplo.o
@@ -425,6 +481,30 @@ src/Exemplo3.s: src/Exemplo3.cpp.s
 src/Exemplo3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo3.dir/build.make CMakeFiles/Exemplo3.dir/src/Exemplo3.cpp.s
 .PHONY : src/Exemplo3.cpp.s
+
+src/Exemplo5_animacoes.o: src/Exemplo5_animacoes.cpp.o
+.PHONY : src/Exemplo5_animacoes.o
+
+# target to build an object file
+src/Exemplo5_animacoes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/src/Exemplo5_animacoes.cpp.o
+.PHONY : src/Exemplo5_animacoes.cpp.o
+
+src/Exemplo5_animacoes.i: src/Exemplo5_animacoes.cpp.i
+.PHONY : src/Exemplo5_animacoes.i
+
+# target to preprocess a source file
+src/Exemplo5_animacoes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/src/Exemplo5_animacoes.cpp.i
+.PHONY : src/Exemplo5_animacoes.cpp.i
+
+src/Exemplo5_animacoes.s: src/Exemplo5_animacoes.cpp.s
+.PHONY : src/Exemplo5_animacoes.s
+
+# target to generate assembly for a file
+src/Exemplo5_animacoes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/src/Exemplo5_animacoes.cpp.s
+.PHONY : src/Exemplo5_animacoes.cpp.s
 
 src/ExercicioAula03_01.o: src/ExercicioAula03_01.cpp.o
 .PHONY : src/ExercicioAula03_01.o
@@ -608,8 +688,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... uninstall"
 	@echo "... update_mappings"
+	@echo "... Aula03_Exercicio"
 	@echo "... Exemplo"
 	@echo "... Exemplo3"
+	@echo "... Exemplo5_animacoes"
 	@echo "... ExercicioAula03_01"
 	@echo "... ExercicioAula03_02"
 	@echo "... ExercicioAula03_03"
@@ -622,12 +704,18 @@ help:
 	@echo "... common/glad.o"
 	@echo "... common/glad.i"
 	@echo "... common/glad.s"
+	@echo "... src/Aula03_Exercicio.o"
+	@echo "... src/Aula03_Exercicio.i"
+	@echo "... src/Aula03_Exercicio.s"
 	@echo "... src/Exemplo.o"
 	@echo "... src/Exemplo.i"
 	@echo "... src/Exemplo.s"
 	@echo "... src/Exemplo3.o"
 	@echo "... src/Exemplo3.i"
 	@echo "... src/Exemplo3.s"
+	@echo "... src/Exemplo5_animacoes.o"
+	@echo "... src/Exemplo5_animacoes.i"
+	@echo "... src/Exemplo5_animacoes.s"
 	@echo "... src/ExercicioAula03_01.o"
 	@echo "... src/ExercicioAula03_01.i"
 	@echo "... src/ExercicioAula03_01.s"
