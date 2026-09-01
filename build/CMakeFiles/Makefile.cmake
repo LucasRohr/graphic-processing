@@ -105,6 +105,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ExercicioAula03_07.dir/DependInfo.cmake"
   "CMakeFiles/Exemplo5_animacoes.dir/DependInfo.cmake"
   "CMakeFiles/Aula03_Exercicio.dir/DependInfo.cmake"
+  "CMakeFiles/ExemploShaderExterno.dir/DependInfo.cmake"
   "_deps/glfw-build/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "_deps/glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "_deps/glfw-build/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"

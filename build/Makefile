@@ -305,6 +305,19 @@ Aula03_Exercicio/fast:
 .PHONY : Aula03_Exercicio/fast
 
 #=============================================================================
+# Target rules for targets named ExemploShaderExterno
+
+# Build rule for target.
+ExemploShaderExterno: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExemploShaderExterno
+.PHONY : ExemploShaderExterno
+
+# fast build rule for target.
+ExemploShaderExterno/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExemploShaderExterno.dir/build.make CMakeFiles/ExemploShaderExterno.dir/build
+.PHONY : ExemploShaderExterno/fast
+
+#=============================================================================
 # Target rules for targets named uninstall
 
 # Build rule for target.
@@ -372,6 +385,7 @@ common/glad.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_07.dir/build.make CMakeFiles/ExercicioAula03_07.dir/common/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/common/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aula03_Exercicio.dir/build.make CMakeFiles/Aula03_Exercicio.dir/common/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExemploShaderExterno.dir/build.make CMakeFiles/ExemploShaderExterno.dir/common/glad.c.o
 .PHONY : common/glad.c.o
 
 common/glad.i: common/glad.c.i
@@ -390,6 +404,7 @@ common/glad.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_07.dir/build.make CMakeFiles/ExercicioAula03_07.dir/common/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/common/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aula03_Exercicio.dir/build.make CMakeFiles/Aula03_Exercicio.dir/common/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExemploShaderExterno.dir/build.make CMakeFiles/ExemploShaderExterno.dir/common/glad.c.i
 .PHONY : common/glad.c.i
 
 common/glad.s: common/glad.c.s
@@ -408,6 +423,7 @@ common/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_07.dir/build.make CMakeFiles/ExercicioAula03_07.dir/common/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/common/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aula03_Exercicio.dir/build.make CMakeFiles/Aula03_Exercicio.dir/common/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExemploShaderExterno.dir/build.make CMakeFiles/ExemploShaderExterno.dir/common/glad.c.s
 .PHONY : common/glad.c.s
 
 src/Aula03_Exercicio.o: src/Aula03_Exercicio.cpp.o
@@ -505,6 +521,30 @@ src/Exemplo5_animacoes.s: src/Exemplo5_animacoes.cpp.s
 src/Exemplo5_animacoes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/src/Exemplo5_animacoes.cpp.s
 .PHONY : src/Exemplo5_animacoes.cpp.s
+
+src/ExemploShaderExterno.o: src/ExemploShaderExterno.cpp.o
+.PHONY : src/ExemploShaderExterno.o
+
+# target to build an object file
+src/ExemploShaderExterno.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExemploShaderExterno.dir/build.make CMakeFiles/ExemploShaderExterno.dir/src/ExemploShaderExterno.cpp.o
+.PHONY : src/ExemploShaderExterno.cpp.o
+
+src/ExemploShaderExterno.i: src/ExemploShaderExterno.cpp.i
+.PHONY : src/ExemploShaderExterno.i
+
+# target to preprocess a source file
+src/ExemploShaderExterno.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExemploShaderExterno.dir/build.make CMakeFiles/ExemploShaderExterno.dir/src/ExemploShaderExterno.cpp.i
+.PHONY : src/ExemploShaderExterno.cpp.i
+
+src/ExemploShaderExterno.s: src/ExemploShaderExterno.cpp.s
+.PHONY : src/ExemploShaderExterno.s
+
+# target to generate assembly for a file
+src/ExemploShaderExterno.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExemploShaderExterno.dir/build.make CMakeFiles/ExemploShaderExterno.dir/src/ExemploShaderExterno.cpp.s
+.PHONY : src/ExemploShaderExterno.cpp.s
 
 src/ExercicioAula03_01.o: src/ExercicioAula03_01.cpp.o
 .PHONY : src/ExercicioAula03_01.o
@@ -692,6 +732,7 @@ help:
 	@echo "... Exemplo"
 	@echo "... Exemplo3"
 	@echo "... Exemplo5_animacoes"
+	@echo "... ExemploShaderExterno"
 	@echo "... ExercicioAula03_01"
 	@echo "... ExercicioAula03_02"
 	@echo "... ExercicioAula03_03"
@@ -716,6 +757,9 @@ help:
 	@echo "... src/Exemplo5_animacoes.o"
 	@echo "... src/Exemplo5_animacoes.i"
 	@echo "... src/Exemplo5_animacoes.s"
+	@echo "... src/ExemploShaderExterno.o"
+	@echo "... src/ExemploShaderExterno.i"
+	@echo "... src/ExemploShaderExterno.s"
 	@echo "... src/ExercicioAula03_01.o"
 	@echo "... src/ExercicioAula03_01.i"
 	@echo "... src/ExercicioAula03_01.s"

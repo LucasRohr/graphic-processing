@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Exemplo5_animacoes"
+			"path" : "ExemploShaderExterno"
 		}
 	],
 	"backtrace" : 1,
@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 83,
+				"line" : 84,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 85,
+				"line" : 86,
 				"parent" : 0
 			},
 			{
@@ -49,7 +49,7 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 60,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
@@ -214,7 +214,7 @@
 			"id" : "glfw::@fa9f4482d3a2b070f206"
 		}
 	],
-	"id" : "Exemplo5_animacoes::@6890427a1f51a3e7e1df",
+	"id" : "ExemploShaderExterno::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -265,8 +265,8 @@
 			"fragment" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
 		}
 	],
-	"name" : "Exemplo5_animacoes",
-	"nameOnDisk" : "Exemplo5_animacoes",
+	"name" : "ExemploShaderExterno",
+	"nameOnDisk" : "ExemploShaderExterno",
 	"paths" : 
 	{
 		"build" : ".",
@@ -292,7 +292,7 @@
 				1
 			],
 			"compileGroupIndex" : 0,
-			"path" : "src/Exemplo5_animacoes.cpp",
+			"path" : "src/ExemploShaderExterno.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

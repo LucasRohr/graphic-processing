@@ -55,6 +55,7 @@ set(EXERCISES
     ExercicioAula03_07
     Exemplo5_animacoes
     Aula03_Exercicio
+    ExemploShaderExterno
 )
 
 add_compile_options(-Wno-pragmas)
