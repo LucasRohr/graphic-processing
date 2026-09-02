@@ -1,0 +1,372 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Git::Git::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Git__Git-Debug-635082a09649a4ef2e72.json",
+					"name" : "Git::Git",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Threads::Threads::@369fad943889a5ec39c8",
+					"jsonFile" : "target-Threads__Threads-Debug-e7dae445dba123ffe5f4.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glm-header-only::@ce54d98d7b326a3e12a8",
+					"jsonFile" : "target-glm-header-only-Debug-cb3ad5113018bca73466.json",
+					"name" : "glm-header-only",
+					"projectIndex" : 2
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b23a0b23c080df4d29ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"build" : "_deps/glfw-build",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.glfw-build-Debug-bcad3e0a1675b1fc187f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/glfw-src",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "_deps/glfw-build/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.glfw-build.src-Debug-ba881ea3308a17c151ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/glfw-src/src",
+					"targetIndexes" : 
+					[
+						14,
+						17
+					]
+				},
+				{
+					"build" : "_deps/glfw-build/docs",
+					"jsonFile" : "directory-_deps.glfw-build.docs-Debug-980808e2e7402c9d6d15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/glfw-src/docs"
+				},
+				{
+					"build" : "_deps/glm-build",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-_deps.glm-build-Debug-da76698cc757a0e91013.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glm-src"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"build" : "_deps/glm-build/glm",
+					"jsonFile" : "directory-_deps.glm-build.glm-Debug-dc109981b5c24860b5cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glm-src/glm",
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PGFundamentos",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						16,
+						17
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Aula03_Exercicio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aula03_Exercicio-Debug-ded14075f3d1ad4b137e.json",
+					"name" : "Aula03_Exercicio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex7.1CameraEQuadrado::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex7.1CameraEQuadrado-Debug-aed5948728a04627d96b.json",
+					"name" : "Ex7.1CameraEQuadrado",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex7.2CameraECubo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex7.2CameraECubo-Debug-9aa7ffac1200f78c5650.json",
+					"name" : "Ex7.2CameraECubo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Exemplo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exemplo-Debug-42d859f00e2f030f4f4f.json",
+					"name" : "Exemplo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Exemplo3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exemplo3-Debug-fc7f5b1667b753572a26.json",
+					"name" : "Exemplo3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Exemplo5_animacoes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exemplo5_animacoes-Debug-9d5e04a0017759faf41f.json",
+					"name" : "Exemplo5_animacoes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExemploShaderExterno::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExemploShaderExterno-Debug-019497f33000a0639471.json",
+					"name" : "ExemploShaderExterno",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExercicioAula03_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExercicioAula03_01-Debug-b0ec817f58a01a7418e1.json",
+					"name" : "ExercicioAula03_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExercicioAula03_02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExercicioAula03_02-Debug-ca1ef58aa9697feba865.json",
+					"name" : "ExercicioAula03_02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExercicioAula03_03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExercicioAula03_03-Debug-5c89e41c0e8940c37154.json",
+					"name" : "ExercicioAula03_03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExercicioAula03_04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExercicioAula03_04-Debug-9e1f86e8e6d45ea92335.json",
+					"name" : "ExercicioAula03_04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExercicioAula03_05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExercicioAula03_05-Debug-482a1af318290247d560.json",
+					"name" : "ExercicioAula03_05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExercicioAula03_06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExercicioAula03_06-Debug-4a06bad0153c3a0cf0d0.json",
+					"name" : "ExercicioAula03_06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ExercicioAula03_07::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ExercicioAula03_07-Debug-26a1efbe097e13a37e9f.json",
+					"name" : "ExercicioAula03_07",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@fa9f4482d3a2b070f206",
+					"jsonFile" : "target-glfw-Debug-0107d5d513c23a3207bc.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glm::@ce54d98d7b326a3e12a8",
+					"jsonFile" : "target-glm-Debug-f4eb2c21087b5ce32d45.json",
+					"name" : "glm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@369fad943889a5ec39c8",
+					"jsonFile" : "target-uninstall-Debug-0ca3e1b8855ca3a298d6.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update_mappings::@fa9f4482d3a2b070f206",
+					"jsonFile" : "target-update_mappings-Debug-43c7bacf8ef87f3134a4.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build",
+		"source" : "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

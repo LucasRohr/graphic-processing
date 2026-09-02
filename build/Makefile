@@ -318,6 +318,32 @@ ExemploShaderExterno/fast:
 .PHONY : ExemploShaderExterno/fast
 
 #=============================================================================
+# Target rules for targets named Ex7.1CameraEQuadrado
+
+# Build rule for target.
+Ex7.1CameraEQuadrado: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ex7.1CameraEQuadrado
+.PHONY : Ex7.1CameraEQuadrado
+
+# fast build rule for target.
+Ex7.1CameraEQuadrado/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.1CameraEQuadrado.dir/build.make CMakeFiles/Ex7.1CameraEQuadrado.dir/build
+.PHONY : Ex7.1CameraEQuadrado/fast
+
+#=============================================================================
+# Target rules for targets named Ex7.2CameraECubo
+
+# Build rule for target.
+Ex7.2CameraECubo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ex7.2CameraECubo
+.PHONY : Ex7.2CameraECubo
+
+# fast build rule for target.
+Ex7.2CameraECubo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.2CameraECubo.dir/build.make CMakeFiles/Ex7.2CameraECubo.dir/build
+.PHONY : Ex7.2CameraECubo/fast
+
+#=============================================================================
 # Target rules for targets named uninstall
 
 # Build rule for target.
@@ -386,6 +412,8 @@ common/glad.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/common/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aula03_Exercicio.dir/build.make CMakeFiles/Aula03_Exercicio.dir/common/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExemploShaderExterno.dir/build.make CMakeFiles/ExemploShaderExterno.dir/common/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.1CameraEQuadrado.dir/build.make CMakeFiles/Ex7.1CameraEQuadrado.dir/common/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.2CameraECubo.dir/build.make CMakeFiles/Ex7.2CameraECubo.dir/common/glad.c.o
 .PHONY : common/glad.c.o
 
 common/glad.i: common/glad.c.i
@@ -405,6 +433,8 @@ common/glad.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/common/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aula03_Exercicio.dir/build.make CMakeFiles/Aula03_Exercicio.dir/common/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExemploShaderExterno.dir/build.make CMakeFiles/ExemploShaderExterno.dir/common/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.1CameraEQuadrado.dir/build.make CMakeFiles/Ex7.1CameraEQuadrado.dir/common/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.2CameraECubo.dir/build.make CMakeFiles/Ex7.2CameraECubo.dir/common/glad.c.i
 .PHONY : common/glad.c.i
 
 common/glad.s: common/glad.c.s
@@ -424,6 +454,8 @@ common/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/common/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aula03_Exercicio.dir/build.make CMakeFiles/Aula03_Exercicio.dir/common/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExemploShaderExterno.dir/build.make CMakeFiles/ExemploShaderExterno.dir/common/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.1CameraEQuadrado.dir/build.make CMakeFiles/Ex7.1CameraEQuadrado.dir/common/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.2CameraECubo.dir/build.make CMakeFiles/Ex7.2CameraECubo.dir/common/glad.c.s
 .PHONY : common/glad.c.s
 
 src/Aula03_Exercicio.o: src/Aula03_Exercicio.cpp.o
@@ -449,6 +481,54 @@ src/Aula03_Exercicio.s: src/Aula03_Exercicio.cpp.s
 src/Aula03_Exercicio.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aula03_Exercicio.dir/build.make CMakeFiles/Aula03_Exercicio.dir/src/Aula03_Exercicio.cpp.s
 .PHONY : src/Aula03_Exercicio.cpp.s
+
+src/Ex7.1CameraEQuadrado.o: src/Ex7.1CameraEQuadrado.cpp.o
+.PHONY : src/Ex7.1CameraEQuadrado.o
+
+# target to build an object file
+src/Ex7.1CameraEQuadrado.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.1CameraEQuadrado.dir/build.make CMakeFiles/Ex7.1CameraEQuadrado.dir/src/Ex7.1CameraEQuadrado.cpp.o
+.PHONY : src/Ex7.1CameraEQuadrado.cpp.o
+
+src/Ex7.1CameraEQuadrado.i: src/Ex7.1CameraEQuadrado.cpp.i
+.PHONY : src/Ex7.1CameraEQuadrado.i
+
+# target to preprocess a source file
+src/Ex7.1CameraEQuadrado.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.1CameraEQuadrado.dir/build.make CMakeFiles/Ex7.1CameraEQuadrado.dir/src/Ex7.1CameraEQuadrado.cpp.i
+.PHONY : src/Ex7.1CameraEQuadrado.cpp.i
+
+src/Ex7.1CameraEQuadrado.s: src/Ex7.1CameraEQuadrado.cpp.s
+.PHONY : src/Ex7.1CameraEQuadrado.s
+
+# target to generate assembly for a file
+src/Ex7.1CameraEQuadrado.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.1CameraEQuadrado.dir/build.make CMakeFiles/Ex7.1CameraEQuadrado.dir/src/Ex7.1CameraEQuadrado.cpp.s
+.PHONY : src/Ex7.1CameraEQuadrado.cpp.s
+
+src/Ex7.2CameraECubo.o: src/Ex7.2CameraECubo.cpp.o
+.PHONY : src/Ex7.2CameraECubo.o
+
+# target to build an object file
+src/Ex7.2CameraECubo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.2CameraECubo.dir/build.make CMakeFiles/Ex7.2CameraECubo.dir/src/Ex7.2CameraECubo.cpp.o
+.PHONY : src/Ex7.2CameraECubo.cpp.o
+
+src/Ex7.2CameraECubo.i: src/Ex7.2CameraECubo.cpp.i
+.PHONY : src/Ex7.2CameraECubo.i
+
+# target to preprocess a source file
+src/Ex7.2CameraECubo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.2CameraECubo.dir/build.make CMakeFiles/Ex7.2CameraECubo.dir/src/Ex7.2CameraECubo.cpp.i
+.PHONY : src/Ex7.2CameraECubo.cpp.i
+
+src/Ex7.2CameraECubo.s: src/Ex7.2CameraECubo.cpp.s
+.PHONY : src/Ex7.2CameraECubo.s
+
+# target to generate assembly for a file
+src/Ex7.2CameraECubo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.2CameraECubo.dir/build.make CMakeFiles/Ex7.2CameraECubo.dir/src/Ex7.2CameraECubo.cpp.s
+.PHONY : src/Ex7.2CameraECubo.cpp.s
 
 src/Exemplo.o: src/Exemplo.cpp.o
 .PHONY : src/Exemplo.o
@@ -729,6 +809,8 @@ help:
 	@echo "... uninstall"
 	@echo "... update_mappings"
 	@echo "... Aula03_Exercicio"
+	@echo "... Ex7.1CameraEQuadrado"
+	@echo "... Ex7.2CameraECubo"
 	@echo "... Exemplo"
 	@echo "... Exemplo3"
 	@echo "... Exemplo5_animacoes"
@@ -748,6 +830,12 @@ help:
 	@echo "... src/Aula03_Exercicio.o"
 	@echo "... src/Aula03_Exercicio.i"
 	@echo "... src/Aula03_Exercicio.s"
+	@echo "... src/Ex7.1CameraEQuadrado.o"
+	@echo "... src/Ex7.1CameraEQuadrado.i"
+	@echo "... src/Ex7.1CameraEQuadrado.s"
+	@echo "... src/Ex7.2CameraECubo.o"
+	@echo "... src/Ex7.2CameraECubo.i"
+	@echo "... src/Ex7.2CameraECubo.s"
 	@echo "... src/Exemplo.o"
 	@echo "... src/Exemplo.i"
 	@echo "... src/Exemplo.s"

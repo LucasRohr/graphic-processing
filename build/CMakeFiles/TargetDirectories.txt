@@ -10,6 +10,8 @@
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/Exemplo5_animacoes.dir
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/Aula03_Exercicio.dir
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/ExemploShaderExterno.dir
+/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/Ex7.1CameraEQuadrado.dir
+/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/Ex7.2CameraECubo.dir
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/edit_cache.dir
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/rebuild_cache.dir
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/list_install_components.dir
