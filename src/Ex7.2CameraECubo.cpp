@@ -216,31 +216,6 @@ void atualizaDirecaoCamera() {
     Cam_front = glm::normalize(front);
 }
 
-void especificaMatrizVisualizacao() {
-    glm::mat4 visualizacao = glm::lookAt(Cam_pos, Cam_pos + Cam_front, Cam_up);
-
-    GLint transformLoc = glGetUniformLocation(Shader_programm, "view");
-    glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(visualizacao));
-}
-
-void especificaMatrizProjecao() {
-    float znear = 0.1f;
-    float zfar = 100.0f;
-    float fov = glm::radians(67.0f);
-    float aspecto = (float)WIDTH / (float)HEIGHT;
-
-    glm::mat4 projecao = glm::perspective(fov, aspecto, znear, zfar);
-
-    GLint transformLoc = glGetUniformLocation(Shader_programm, "proj");
-    glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(projecao));
-}
-
-void inicializaCamera() {
-    atualizaDirecaoCamera();
-    especificaMatrizVisualizacao();
-    especificaMatrizProjecao();
-}
-
 void trataTeclado() {
     if (glfwGetKey(Window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
         glfwSetWindowShouldClose(Window, true);
@@ -274,9 +249,30 @@ void trataTeclado() {
     }
 }
 
+void desenhaCena(glm::mat4 view, glm::mat4 projecao) {
+    // 1. Ativa o programa de shader correspondente
+    glUseProgram(Shader_programm);
+    
+    // 2. Definição das matrizes de visualização e projeção movidas para único local
+
+    GLint viewLoc = glGetUniformLocation(Shader_programm, "view");
+    glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
+    
+    GLint projLoc = glGetUniformLocation(Shader_programm, "proj");
+    glUniformMatrix4fv(projLoc, 1, GL_FALSE, glm::value_ptr(projecao));
+
+    glBindVertexArray(Vao);
+    glm::mat4 transformacao = glm::mat4(1.0f);
+    transformacao = glm::rotate(transformacao, (float)glfwGetTime() * 0.5f, glm::vec3(0.5f, 1.0f, 0.0f));
+    
+    GLint transformLoc = glGetUniformLocation(Shader_programm, "matriz");
+    glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(transformacao));
+
+    glDrawArrays(GL_TRIANGLES, 0, 36);
+}
+
 void inicializaRenderizacao() {
     double tempo_anterior = glfwGetTime();
-
     glEnable(GL_DEPTH_TEST);
     
     while (!glfwWindowShouldClose(Window)) {
@@ -287,20 +283,38 @@ void inicializaRenderizacao() {
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         
-        glUseProgram(Shader_programm);
-        
         trataTeclado();
-        inicializaCamera();
-        
-        glBindVertexArray(Vao);
+        atualizaDirecaoCamera();
 
-        glm::mat4 transformacao = glm::mat4(1.0f);
-        transformacao = glm::rotate(transformacao, (float)glfwGetTime() * 0.5f, glm::vec3(0.5f, 1.0f, 0.0f));
-        
-        GLint transformLoc = glGetUniformLocation(Shader_programm, "matriz");
-        glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(transformacao));
+        // Lógica de Zoom usando tecla Z
+        float fov = glm::radians(67.0f); // FOV padrão
+        if (glfwGetKey(Window, GLFW_KEY_Z) == GLFW_PRESS) {
+            fov = glm::radians(20.0f);
+        }
 
-        glDrawArrays(GL_TRIANGLES, 0, 36);
+        // ==========================================
+        // 1. Renderização Principal (Perspectiva)
+        // ==========================================
+        glViewport(0, 0, WIDTH, HEIGHT);
+        glm::mat4 viewPrincipal = glm::lookAt(Cam_pos, Cam_pos + Cam_front, Cam_up);
+        glm::mat4 projPrincipal = glm::perspective(fov, (float)WIDTH / (float)HEIGHT, 0.1f, 100.0f); // FOV dinamicamente ajustado
+        desenhaCena(viewPrincipal, projPrincipal);
+
+        // ==========================================
+        // 2. Renderização do Minimapa (Ortográfica)
+        // ==========================================
+        // Define viewport para um quadrado de 200x200 no canto superior direito
+        glViewport(WIDTH - 200, HEIGHT - 200, 200, 200);
+        
+        // Câmera no topo (Y=10) olhando para o centro do cubo (Y=0)
+        glm::mat4 viewMinimapa = glm::lookAt(glm::vec3(0.0f, 10.0f, 0.0f), glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 0.0f, -1.0f));
+        
+        // Projeção ortográfica ignorando a distância z
+        glm::mat4 projMinimapa = glm::ortho(-3.0f, 3.0f, -3.0f, 3.0f, 0.1f, 100.0f);
+        
+        // Como a matriz representa o estado global do objeto, limpa o depth buffer para desenhar por cima
+        glClear(GL_DEPTH_BUFFER_BIT); 
+        desenhaCena(viewMinimapa, projMinimapa);
 
         glfwPollEvents();
         glfwSwapBuffers(Window);
