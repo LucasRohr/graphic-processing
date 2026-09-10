@@ -58,6 +58,9 @@ set(EXERCISES
     ExemploShaderExterno
     Ex7.1CameraEQuadrado
     Ex7.2CameraECubo
+    Ex8_Textura_Estatica
+    Ex8.2_Textura_Cubo
+    Ex8.3_Carregando_arquivo_Obj
 )
 
 add_compile_options(-Wno-pragmas)

@@ -168,6 +168,42 @@
   "output": "CMakeFiles/Ex7.2CameraECubo.dir/common/glad.c.o"
 },
 {
+  "directory": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build",
+  "command": "/usr/bin/clang++  -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include/glad -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glm-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -Wno-pragmas -o CMakeFiles/Ex8_Textura_Estatica.dir/src/Ex8_Textura_Estatica.cpp.o -c /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/src/Ex8_Textura_Estatica.cpp",
+  "file": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/src/Ex8_Textura_Estatica.cpp",
+  "output": "CMakeFiles/Ex8_Textura_Estatica.dir/src/Ex8_Textura_Estatica.cpp.o"
+},
+{
+  "directory": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build",
+  "command": "/usr/bin/clang  -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include/glad -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glm-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -Wno-pragmas -o CMakeFiles/Ex8_Textura_Estatica.dir/common/glad.c.o -c /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common/glad.c",
+  "file": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common/glad.c",
+  "output": "CMakeFiles/Ex8_Textura_Estatica.dir/common/glad.c.o"
+},
+{
+  "directory": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build",
+  "command": "/usr/bin/clang++  -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include/glad -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glm-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -Wno-pragmas -o CMakeFiles/Ex8.2_Textura_Cubo.dir/src/Ex8.2_Textura_Cubo.cpp.o -c /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/src/Ex8.2_Textura_Cubo.cpp",
+  "file": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/src/Ex8.2_Textura_Cubo.cpp",
+  "output": "CMakeFiles/Ex8.2_Textura_Cubo.dir/src/Ex8.2_Textura_Cubo.cpp.o"
+},
+{
+  "directory": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build",
+  "command": "/usr/bin/clang  -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include/glad -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glm-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -Wno-pragmas -o CMakeFiles/Ex8.2_Textura_Cubo.dir/common/glad.c.o -c /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common/glad.c",
+  "file": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common/glad.c",
+  "output": "CMakeFiles/Ex8.2_Textura_Cubo.dir/common/glad.c.o"
+},
+{
+  "directory": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build",
+  "command": "/usr/bin/clang++  -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include/glad -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glm-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -Wno-pragmas -o CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/src/Ex8.3_Carregando_arquivo_Obj.cpp.o -c /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/src/Ex8.3_Carregando_arquivo_Obj.cpp",
+  "file": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/src/Ex8.3_Carregando_arquivo_Obj.cpp",
+  "output": "CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/src/Ex8.3_Carregando_arquivo_Obj.cpp.o"
+},
+{
+  "directory": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build",
+  "command": "/usr/bin/clang  -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/include/glad -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glm-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/stb_image-src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -Wno-pragmas -o CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/common/glad.c.o -c /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common/glad.c",
+  "file": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/common/glad.c",
+  "output": "CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/common/glad.c.o"
+},
+{
   "directory": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-build/src",
   "command": "/usr/bin/clang -D_GLFW_COCOA -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/include -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/src -I/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-build/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/context.c.o -c /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/src/context.c",
   "file": "/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/_deps/glfw-src/src/context.c",

@@ -344,6 +344,45 @@ Ex7.2CameraECubo/fast:
 .PHONY : Ex7.2CameraECubo/fast
 
 #=============================================================================
+# Target rules for targets named Ex8_Textura_Estatica
+
+# Build rule for target.
+Ex8_Textura_Estatica: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ex8_Textura_Estatica
+.PHONY : Ex8_Textura_Estatica
+
+# fast build rule for target.
+Ex8_Textura_Estatica/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8_Textura_Estatica.dir/build.make CMakeFiles/Ex8_Textura_Estatica.dir/build
+.PHONY : Ex8_Textura_Estatica/fast
+
+#=============================================================================
+# Target rules for targets named Ex8.2_Textura_Cubo
+
+# Build rule for target.
+Ex8.2_Textura_Cubo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ex8.2_Textura_Cubo
+.PHONY : Ex8.2_Textura_Cubo
+
+# fast build rule for target.
+Ex8.2_Textura_Cubo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.2_Textura_Cubo.dir/build.make CMakeFiles/Ex8.2_Textura_Cubo.dir/build
+.PHONY : Ex8.2_Textura_Cubo/fast
+
+#=============================================================================
+# Target rules for targets named Ex8.3_Carregando_arquivo_Obj
+
+# Build rule for target.
+Ex8.3_Carregando_arquivo_Obj: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ex8.3_Carregando_arquivo_Obj
+.PHONY : Ex8.3_Carregando_arquivo_Obj
+
+# fast build rule for target.
+Ex8.3_Carregando_arquivo_Obj/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/build.make CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/build
+.PHONY : Ex8.3_Carregando_arquivo_Obj/fast
+
+#=============================================================================
 # Target rules for targets named uninstall
 
 # Build rule for target.
@@ -414,6 +453,9 @@ common/glad.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExemploShaderExterno.dir/build.make CMakeFiles/ExemploShaderExterno.dir/common/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.1CameraEQuadrado.dir/build.make CMakeFiles/Ex7.1CameraEQuadrado.dir/common/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.2CameraECubo.dir/build.make CMakeFiles/Ex7.2CameraECubo.dir/common/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8_Textura_Estatica.dir/build.make CMakeFiles/Ex8_Textura_Estatica.dir/common/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.2_Textura_Cubo.dir/build.make CMakeFiles/Ex8.2_Textura_Cubo.dir/common/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/build.make CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/common/glad.c.o
 .PHONY : common/glad.c.o
 
 common/glad.i: common/glad.c.i
@@ -435,6 +477,9 @@ common/glad.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExemploShaderExterno.dir/build.make CMakeFiles/ExemploShaderExterno.dir/common/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.1CameraEQuadrado.dir/build.make CMakeFiles/Ex7.1CameraEQuadrado.dir/common/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.2CameraECubo.dir/build.make CMakeFiles/Ex7.2CameraECubo.dir/common/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8_Textura_Estatica.dir/build.make CMakeFiles/Ex8_Textura_Estatica.dir/common/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.2_Textura_Cubo.dir/build.make CMakeFiles/Ex8.2_Textura_Cubo.dir/common/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/build.make CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/common/glad.c.i
 .PHONY : common/glad.c.i
 
 common/glad.s: common/glad.c.s
@@ -456,6 +501,9 @@ common/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExemploShaderExterno.dir/build.make CMakeFiles/ExemploShaderExterno.dir/common/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.1CameraEQuadrado.dir/build.make CMakeFiles/Ex7.1CameraEQuadrado.dir/common/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.2CameraECubo.dir/build.make CMakeFiles/Ex7.2CameraECubo.dir/common/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8_Textura_Estatica.dir/build.make CMakeFiles/Ex8_Textura_Estatica.dir/common/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.2_Textura_Cubo.dir/build.make CMakeFiles/Ex8.2_Textura_Cubo.dir/common/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/build.make CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/common/glad.c.s
 .PHONY : common/glad.c.s
 
 src/Aula03_Exercicio.o: src/Aula03_Exercicio.cpp.o
@@ -529,6 +577,78 @@ src/Ex7.2CameraECubo.s: src/Ex7.2CameraECubo.cpp.s
 src/Ex7.2CameraECubo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex7.2CameraECubo.dir/build.make CMakeFiles/Ex7.2CameraECubo.dir/src/Ex7.2CameraECubo.cpp.s
 .PHONY : src/Ex7.2CameraECubo.cpp.s
+
+src/Ex8.2_Textura_Cubo.o: src/Ex8.2_Textura_Cubo.cpp.o
+.PHONY : src/Ex8.2_Textura_Cubo.o
+
+# target to build an object file
+src/Ex8.2_Textura_Cubo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.2_Textura_Cubo.dir/build.make CMakeFiles/Ex8.2_Textura_Cubo.dir/src/Ex8.2_Textura_Cubo.cpp.o
+.PHONY : src/Ex8.2_Textura_Cubo.cpp.o
+
+src/Ex8.2_Textura_Cubo.i: src/Ex8.2_Textura_Cubo.cpp.i
+.PHONY : src/Ex8.2_Textura_Cubo.i
+
+# target to preprocess a source file
+src/Ex8.2_Textura_Cubo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.2_Textura_Cubo.dir/build.make CMakeFiles/Ex8.2_Textura_Cubo.dir/src/Ex8.2_Textura_Cubo.cpp.i
+.PHONY : src/Ex8.2_Textura_Cubo.cpp.i
+
+src/Ex8.2_Textura_Cubo.s: src/Ex8.2_Textura_Cubo.cpp.s
+.PHONY : src/Ex8.2_Textura_Cubo.s
+
+# target to generate assembly for a file
+src/Ex8.2_Textura_Cubo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.2_Textura_Cubo.dir/build.make CMakeFiles/Ex8.2_Textura_Cubo.dir/src/Ex8.2_Textura_Cubo.cpp.s
+.PHONY : src/Ex8.2_Textura_Cubo.cpp.s
+
+src/Ex8.3_Carregando_arquivo_Obj.o: src/Ex8.3_Carregando_arquivo_Obj.cpp.o
+.PHONY : src/Ex8.3_Carregando_arquivo_Obj.o
+
+# target to build an object file
+src/Ex8.3_Carregando_arquivo_Obj.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/build.make CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/src/Ex8.3_Carregando_arquivo_Obj.cpp.o
+.PHONY : src/Ex8.3_Carregando_arquivo_Obj.cpp.o
+
+src/Ex8.3_Carregando_arquivo_Obj.i: src/Ex8.3_Carregando_arquivo_Obj.cpp.i
+.PHONY : src/Ex8.3_Carregando_arquivo_Obj.i
+
+# target to preprocess a source file
+src/Ex8.3_Carregando_arquivo_Obj.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/build.make CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/src/Ex8.3_Carregando_arquivo_Obj.cpp.i
+.PHONY : src/Ex8.3_Carregando_arquivo_Obj.cpp.i
+
+src/Ex8.3_Carregando_arquivo_Obj.s: src/Ex8.3_Carregando_arquivo_Obj.cpp.s
+.PHONY : src/Ex8.3_Carregando_arquivo_Obj.s
+
+# target to generate assembly for a file
+src/Ex8.3_Carregando_arquivo_Obj.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/build.make CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/src/Ex8.3_Carregando_arquivo_Obj.cpp.s
+.PHONY : src/Ex8.3_Carregando_arquivo_Obj.cpp.s
+
+src/Ex8_Textura_Estatica.o: src/Ex8_Textura_Estatica.cpp.o
+.PHONY : src/Ex8_Textura_Estatica.o
+
+# target to build an object file
+src/Ex8_Textura_Estatica.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8_Textura_Estatica.dir/build.make CMakeFiles/Ex8_Textura_Estatica.dir/src/Ex8_Textura_Estatica.cpp.o
+.PHONY : src/Ex8_Textura_Estatica.cpp.o
+
+src/Ex8_Textura_Estatica.i: src/Ex8_Textura_Estatica.cpp.i
+.PHONY : src/Ex8_Textura_Estatica.i
+
+# target to preprocess a source file
+src/Ex8_Textura_Estatica.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8_Textura_Estatica.dir/build.make CMakeFiles/Ex8_Textura_Estatica.dir/src/Ex8_Textura_Estatica.cpp.i
+.PHONY : src/Ex8_Textura_Estatica.cpp.i
+
+src/Ex8_Textura_Estatica.s: src/Ex8_Textura_Estatica.cpp.s
+.PHONY : src/Ex8_Textura_Estatica.s
+
+# target to generate assembly for a file
+src/Ex8_Textura_Estatica.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8_Textura_Estatica.dir/build.make CMakeFiles/Ex8_Textura_Estatica.dir/src/Ex8_Textura_Estatica.cpp.s
+.PHONY : src/Ex8_Textura_Estatica.cpp.s
 
 src/Exemplo.o: src/Exemplo.cpp.o
 .PHONY : src/Exemplo.o
@@ -811,6 +931,9 @@ help:
 	@echo "... Aula03_Exercicio"
 	@echo "... Ex7.1CameraEQuadrado"
 	@echo "... Ex7.2CameraECubo"
+	@echo "... Ex8.2_Textura_Cubo"
+	@echo "... Ex8.3_Carregando_arquivo_Obj"
+	@echo "... Ex8_Textura_Estatica"
 	@echo "... Exemplo"
 	@echo "... Exemplo3"
 	@echo "... Exemplo5_animacoes"
@@ -836,6 +959,15 @@ help:
 	@echo "... src/Ex7.2CameraECubo.o"
 	@echo "... src/Ex7.2CameraECubo.i"
 	@echo "... src/Ex7.2CameraECubo.s"
+	@echo "... src/Ex8.2_Textura_Cubo.o"
+	@echo "... src/Ex8.2_Textura_Cubo.i"
+	@echo "... src/Ex8.2_Textura_Cubo.s"
+	@echo "... src/Ex8.3_Carregando_arquivo_Obj.o"
+	@echo "... src/Ex8.3_Carregando_arquivo_Obj.i"
+	@echo "... src/Ex8.3_Carregando_arquivo_Obj.s"
+	@echo "... src/Ex8_Textura_Estatica.o"
+	@echo "... src/Ex8_Textura_Estatica.i"
+	@echo "... src/Ex8_Textura_Estatica.s"
 	@echo "... src/Exemplo.o"
 	@echo "... src/Exemplo.i"
 	@echo "... src/Exemplo.s"

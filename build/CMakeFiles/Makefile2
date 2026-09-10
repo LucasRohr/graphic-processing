@@ -77,6 +77,9 @@ all: CMakeFiles/Aula03_Exercicio.dir/all
 all: CMakeFiles/ExemploShaderExterno.dir/all
 all: CMakeFiles/Ex7.1CameraEQuadrado.dir/all
 all: CMakeFiles/Ex7.2CameraECubo.dir/all
+all: CMakeFiles/Ex8_Textura_Estatica.dir/all
+all: CMakeFiles/Ex8.2_Textura_Cubo.dir/all
+all: CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/all
 all: _deps/glfw-build/all
 all: _deps/glm-build/all
 .PHONY : all
@@ -96,6 +99,9 @@ codegen: CMakeFiles/Aula03_Exercicio.dir/codegen
 codegen: CMakeFiles/ExemploShaderExterno.dir/codegen
 codegen: CMakeFiles/Ex7.1CameraEQuadrado.dir/codegen
 codegen: CMakeFiles/Ex7.2CameraECubo.dir/codegen
+codegen: CMakeFiles/Ex8_Textura_Estatica.dir/codegen
+codegen: CMakeFiles/Ex8.2_Textura_Cubo.dir/codegen
+codegen: CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/codegen
 codegen: _deps/glfw-build/codegen
 codegen: _deps/glm-build/codegen
 .PHONY : codegen
@@ -120,6 +126,9 @@ clean: CMakeFiles/Aula03_Exercicio.dir/clean
 clean: CMakeFiles/ExemploShaderExterno.dir/clean
 clean: CMakeFiles/Ex7.1CameraEQuadrado.dir/clean
 clean: CMakeFiles/Ex7.2CameraECubo.dir/clean
+clean: CMakeFiles/Ex8_Textura_Estatica.dir/clean
+clean: CMakeFiles/Ex8.2_Textura_Cubo.dir/clean
+clean: CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/clean
 clean: _deps/glfw-build/clean
 clean: _deps/glm-build/clean
 .PHONY : clean
@@ -232,7 +241,7 @@ _deps/glm-build/glm/clean: _deps/glm-build/glm/CMakeFiles/glm.dir/clean
 CMakeFiles/Exemplo.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo.dir/build.make CMakeFiles/Exemplo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo.dir/build.make CMakeFiles/Exemplo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=10,11,12 "Built target Exemplo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=19,20,21 "Built target Exemplo"
 .PHONY : CMakeFiles/Exemplo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -249,7 +258,7 @@ Exemplo: CMakeFiles/Exemplo.dir/rule
 # codegen rule for target.
 CMakeFiles/Exemplo.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo.dir/build.make CMakeFiles/Exemplo.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=10,11,12 "Finished codegen for target Exemplo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=19,20,21 "Finished codegen for target Exemplo"
 .PHONY : CMakeFiles/Exemplo.dir/codegen
 
 # clean rule for target.
@@ -264,7 +273,7 @@ CMakeFiles/Exemplo.dir/clean:
 CMakeFiles/Exemplo3.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo3.dir/build.make CMakeFiles/Exemplo3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo3.dir/build.make CMakeFiles/Exemplo3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=13,14,15 "Built target Exemplo3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=22,23,24 "Built target Exemplo3"
 .PHONY : CMakeFiles/Exemplo3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -281,7 +290,7 @@ Exemplo3: CMakeFiles/Exemplo3.dir/rule
 # codegen rule for target.
 CMakeFiles/Exemplo3.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo3.dir/build.make CMakeFiles/Exemplo3.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=13,14,15 "Finished codegen for target Exemplo3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=22,23,24 "Finished codegen for target Exemplo3"
 .PHONY : CMakeFiles/Exemplo3.dir/codegen
 
 # clean rule for target.
@@ -296,7 +305,7 @@ CMakeFiles/Exemplo3.dir/clean:
 CMakeFiles/ExercicioAula03_01.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_01.dir/build.make CMakeFiles/ExercicioAula03_01.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_01.dir/build.make CMakeFiles/ExercicioAula03_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=22,23,24 "Built target ExercicioAula03_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=31,32,33 "Built target ExercicioAula03_01"
 .PHONY : CMakeFiles/ExercicioAula03_01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -313,7 +322,7 @@ ExercicioAula03_01: CMakeFiles/ExercicioAula03_01.dir/rule
 # codegen rule for target.
 CMakeFiles/ExercicioAula03_01.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_01.dir/build.make CMakeFiles/ExercicioAula03_01.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=22,23,24 "Finished codegen for target ExercicioAula03_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=31,32,33 "Finished codegen for target ExercicioAula03_01"
 .PHONY : CMakeFiles/ExercicioAula03_01.dir/codegen
 
 # clean rule for target.
@@ -328,7 +337,7 @@ CMakeFiles/ExercicioAula03_01.dir/clean:
 CMakeFiles/ExercicioAula03_02.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_02.dir/build.make CMakeFiles/ExercicioAula03_02.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_02.dir/build.make CMakeFiles/ExercicioAula03_02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=25,26,27 "Built target ExercicioAula03_02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=34,35,36 "Built target ExercicioAula03_02"
 .PHONY : CMakeFiles/ExercicioAula03_02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -345,7 +354,7 @@ ExercicioAula03_02: CMakeFiles/ExercicioAula03_02.dir/rule
 # codegen rule for target.
 CMakeFiles/ExercicioAula03_02.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_02.dir/build.make CMakeFiles/ExercicioAula03_02.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=25,26,27 "Finished codegen for target ExercicioAula03_02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=34,35,36 "Finished codegen for target ExercicioAula03_02"
 .PHONY : CMakeFiles/ExercicioAula03_02.dir/codegen
 
 # clean rule for target.
@@ -360,7 +369,7 @@ CMakeFiles/ExercicioAula03_02.dir/clean:
 CMakeFiles/ExercicioAula03_03.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_03.dir/build.make CMakeFiles/ExercicioAula03_03.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_03.dir/build.make CMakeFiles/ExercicioAula03_03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=28,29,30 "Built target ExercicioAula03_03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=37,38,39 "Built target ExercicioAula03_03"
 .PHONY : CMakeFiles/ExercicioAula03_03.dir/all
 
 # Build rule for subdir invocation for target.
@@ -377,7 +386,7 @@ ExercicioAula03_03: CMakeFiles/ExercicioAula03_03.dir/rule
 # codegen rule for target.
 CMakeFiles/ExercicioAula03_03.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_03.dir/build.make CMakeFiles/ExercicioAula03_03.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=28,29,30 "Finished codegen for target ExercicioAula03_03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=37,38,39 "Finished codegen for target ExercicioAula03_03"
 .PHONY : CMakeFiles/ExercicioAula03_03.dir/codegen
 
 # clean rule for target.
@@ -392,7 +401,7 @@ CMakeFiles/ExercicioAula03_03.dir/clean:
 CMakeFiles/ExercicioAula03_04.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_04.dir/build.make CMakeFiles/ExercicioAula03_04.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_04.dir/build.make CMakeFiles/ExercicioAula03_04.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=31,32,33 "Built target ExercicioAula03_04"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=40,41,42 "Built target ExercicioAula03_04"
 .PHONY : CMakeFiles/ExercicioAula03_04.dir/all
 
 # Build rule for subdir invocation for target.
@@ -409,7 +418,7 @@ ExercicioAula03_04: CMakeFiles/ExercicioAula03_04.dir/rule
 # codegen rule for target.
 CMakeFiles/ExercicioAula03_04.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_04.dir/build.make CMakeFiles/ExercicioAula03_04.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=31,32,33 "Finished codegen for target ExercicioAula03_04"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=40,41,42 "Finished codegen for target ExercicioAula03_04"
 .PHONY : CMakeFiles/ExercicioAula03_04.dir/codegen
 
 # clean rule for target.
@@ -424,7 +433,7 @@ CMakeFiles/ExercicioAula03_04.dir/clean:
 CMakeFiles/ExercicioAula03_05.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_05.dir/build.make CMakeFiles/ExercicioAula03_05.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_05.dir/build.make CMakeFiles/ExercicioAula03_05.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=34,35,36 "Built target ExercicioAula03_05"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=43,44,45 "Built target ExercicioAula03_05"
 .PHONY : CMakeFiles/ExercicioAula03_05.dir/all
 
 # Build rule for subdir invocation for target.
@@ -441,7 +450,7 @@ ExercicioAula03_05: CMakeFiles/ExercicioAula03_05.dir/rule
 # codegen rule for target.
 CMakeFiles/ExercicioAula03_05.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_05.dir/build.make CMakeFiles/ExercicioAula03_05.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=34,35,36 "Finished codegen for target ExercicioAula03_05"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=43,44,45 "Finished codegen for target ExercicioAula03_05"
 .PHONY : CMakeFiles/ExercicioAula03_05.dir/codegen
 
 # clean rule for target.
@@ -456,7 +465,7 @@ CMakeFiles/ExercicioAula03_05.dir/clean:
 CMakeFiles/ExercicioAula03_06.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_06.dir/build.make CMakeFiles/ExercicioAula03_06.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_06.dir/build.make CMakeFiles/ExercicioAula03_06.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=37,38,39 "Built target ExercicioAula03_06"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=46,47,48 "Built target ExercicioAula03_06"
 .PHONY : CMakeFiles/ExercicioAula03_06.dir/all
 
 # Build rule for subdir invocation for target.
@@ -473,7 +482,7 @@ ExercicioAula03_06: CMakeFiles/ExercicioAula03_06.dir/rule
 # codegen rule for target.
 CMakeFiles/ExercicioAula03_06.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_06.dir/build.make CMakeFiles/ExercicioAula03_06.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=37,38,39 "Finished codegen for target ExercicioAula03_06"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=46,47,48 "Finished codegen for target ExercicioAula03_06"
 .PHONY : CMakeFiles/ExercicioAula03_06.dir/codegen
 
 # clean rule for target.
@@ -488,7 +497,7 @@ CMakeFiles/ExercicioAula03_06.dir/clean:
 CMakeFiles/ExercicioAula03_07.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_07.dir/build.make CMakeFiles/ExercicioAula03_07.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_07.dir/build.make CMakeFiles/ExercicioAula03_07.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=40,41,42 "Built target ExercicioAula03_07"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=49,50,51 "Built target ExercicioAula03_07"
 .PHONY : CMakeFiles/ExercicioAula03_07.dir/all
 
 # Build rule for subdir invocation for target.
@@ -505,7 +514,7 @@ ExercicioAula03_07: CMakeFiles/ExercicioAula03_07.dir/rule
 # codegen rule for target.
 CMakeFiles/ExercicioAula03_07.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExercicioAula03_07.dir/build.make CMakeFiles/ExercicioAula03_07.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=40,41,42 "Finished codegen for target ExercicioAula03_07"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=49,50,51 "Finished codegen for target ExercicioAula03_07"
 .PHONY : CMakeFiles/ExercicioAula03_07.dir/codegen
 
 # clean rule for target.
@@ -520,7 +529,7 @@ CMakeFiles/ExercicioAula03_07.dir/clean:
 CMakeFiles/Exemplo5_animacoes.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=16,17,18 "Built target Exemplo5_animacoes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=25,26,27 "Built target Exemplo5_animacoes"
 .PHONY : CMakeFiles/Exemplo5_animacoes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -537,7 +546,7 @@ Exemplo5_animacoes: CMakeFiles/Exemplo5_animacoes.dir/rule
 # codegen rule for target.
 CMakeFiles/Exemplo5_animacoes.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exemplo5_animacoes.dir/build.make CMakeFiles/Exemplo5_animacoes.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=16,17,18 "Finished codegen for target Exemplo5_animacoes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=25,26,27 "Finished codegen for target Exemplo5_animacoes"
 .PHONY : CMakeFiles/Exemplo5_animacoes.dir/codegen
 
 # clean rule for target.
@@ -584,7 +593,7 @@ CMakeFiles/Aula03_Exercicio.dir/clean:
 CMakeFiles/ExemploShaderExterno.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExemploShaderExterno.dir/build.make CMakeFiles/ExemploShaderExterno.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExemploShaderExterno.dir/build.make CMakeFiles/ExemploShaderExterno.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=19,20,21 "Built target ExemploShaderExterno"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=28,29,30 "Built target ExemploShaderExterno"
 .PHONY : CMakeFiles/ExemploShaderExterno.dir/all
 
 # Build rule for subdir invocation for target.
@@ -601,7 +610,7 @@ ExemploShaderExterno: CMakeFiles/ExemploShaderExterno.dir/rule
 # codegen rule for target.
 CMakeFiles/ExemploShaderExterno.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExemploShaderExterno.dir/build.make CMakeFiles/ExemploShaderExterno.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=19,20,21 "Finished codegen for target ExemploShaderExterno"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=28,29,30 "Finished codegen for target ExemploShaderExterno"
 .PHONY : CMakeFiles/ExemploShaderExterno.dir/codegen
 
 # clean rule for target.
@@ -674,6 +683,102 @@ CMakeFiles/Ex7.2CameraECubo.dir/clean:
 .PHONY : CMakeFiles/Ex7.2CameraECubo.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Ex8_Textura_Estatica.dir
+
+# All Build rule for target.
+CMakeFiles/Ex8_Textura_Estatica.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8_Textura_Estatica.dir/build.make CMakeFiles/Ex8_Textura_Estatica.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8_Textura_Estatica.dir/build.make CMakeFiles/Ex8_Textura_Estatica.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=16,17,18 "Built target Ex8_Textura_Estatica"
+.PHONY : CMakeFiles/Ex8_Textura_Estatica.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Ex8_Textura_Estatica.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles 25
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Ex8_Textura_Estatica.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles 0
+.PHONY : CMakeFiles/Ex8_Textura_Estatica.dir/rule
+
+# Convenience name for target.
+Ex8_Textura_Estatica: CMakeFiles/Ex8_Textura_Estatica.dir/rule
+.PHONY : Ex8_Textura_Estatica
+
+# codegen rule for target.
+CMakeFiles/Ex8_Textura_Estatica.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8_Textura_Estatica.dir/build.make CMakeFiles/Ex8_Textura_Estatica.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=16,17,18 "Finished codegen for target Ex8_Textura_Estatica"
+.PHONY : CMakeFiles/Ex8_Textura_Estatica.dir/codegen
+
+# clean rule for target.
+CMakeFiles/Ex8_Textura_Estatica.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8_Textura_Estatica.dir/build.make CMakeFiles/Ex8_Textura_Estatica.dir/clean
+.PHONY : CMakeFiles/Ex8_Textura_Estatica.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Ex8.2_Textura_Cubo.dir
+
+# All Build rule for target.
+CMakeFiles/Ex8.2_Textura_Cubo.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.2_Textura_Cubo.dir/build.make CMakeFiles/Ex8.2_Textura_Cubo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.2_Textura_Cubo.dir/build.make CMakeFiles/Ex8.2_Textura_Cubo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=10,11,12 "Built target Ex8.2_Textura_Cubo"
+.PHONY : CMakeFiles/Ex8.2_Textura_Cubo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Ex8.2_Textura_Cubo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles 25
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Ex8.2_Textura_Cubo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles 0
+.PHONY : CMakeFiles/Ex8.2_Textura_Cubo.dir/rule
+
+# Convenience name for target.
+Ex8.2_Textura_Cubo: CMakeFiles/Ex8.2_Textura_Cubo.dir/rule
+.PHONY : Ex8.2_Textura_Cubo
+
+# codegen rule for target.
+CMakeFiles/Ex8.2_Textura_Cubo.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.2_Textura_Cubo.dir/build.make CMakeFiles/Ex8.2_Textura_Cubo.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=10,11,12 "Finished codegen for target Ex8.2_Textura_Cubo"
+.PHONY : CMakeFiles/Ex8.2_Textura_Cubo.dir/codegen
+
+# clean rule for target.
+CMakeFiles/Ex8.2_Textura_Cubo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.2_Textura_Cubo.dir/build.make CMakeFiles/Ex8.2_Textura_Cubo.dir/clean
+.PHONY : CMakeFiles/Ex8.2_Textura_Cubo.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir
+
+# All Build rule for target.
+CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/build.make CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/build.make CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=13,14,15 "Built target Ex8.3_Carregando_arquivo_Obj"
+.PHONY : CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles 25
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles 0
+.PHONY : CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/rule
+
+# Convenience name for target.
+Ex8.3_Carregando_arquivo_Obj: CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/rule
+.PHONY : Ex8.3_Carregando_arquivo_Obj
+
+# codegen rule for target.
+CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/build.make CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=13,14,15 "Finished codegen for target Ex8.3_Carregando_arquivo_Obj"
+.PHONY : CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/codegen
+
+# clean rule for target.
+CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/build.make CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/clean
+.PHONY : CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir/clean
+
+#=============================================================================
 # Target rules for target _deps/glfw-build/CMakeFiles/uninstall.dir
 
 # All Build rule for target.
@@ -712,7 +817,7 @@ _deps/glfw-build/CMakeFiles/uninstall.dir/clean:
 _deps/glfw-build/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73 "Built target glfw"
 .PHONY : _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -729,7 +834,7 @@ glfw: _deps/glfw-build/src/CMakeFiles/glfw.dir/rule
 # codegen rule for target.
 _deps/glfw-build/src/CMakeFiles/glfw.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64 "Finished codegen for target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73 "Finished codegen for target glfw"
 .PHONY : _deps/glfw-build/src/CMakeFiles/glfw.dir/codegen
 
 # clean rule for target.
@@ -744,7 +849,7 @@ _deps/glfw-build/src/CMakeFiles/glfw.dir/clean:
 _deps/glfw-build/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/update_mappings.dir/build.make _deps/glfw-build/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/update_mappings.dir/build.make _deps/glfw-build/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=67 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=76 "Built target update_mappings"
 .PHONY : _deps/glfw-build/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -761,7 +866,7 @@ update_mappings: _deps/glfw-build/src/CMakeFiles/update_mappings.dir/rule
 # codegen rule for target.
 _deps/glfw-build/src/CMakeFiles/update_mappings.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/update_mappings.dir/build.make _deps/glfw-build/src/CMakeFiles/update_mappings.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=67 "Finished codegen for target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=76 "Finished codegen for target update_mappings"
 .PHONY : _deps/glfw-build/src/CMakeFiles/update_mappings.dir/codegen
 
 # clean rule for target.
@@ -776,7 +881,7 @@ _deps/glfw-build/src/CMakeFiles/update_mappings.dir/clean:
 _deps/glm-build/glm/CMakeFiles/glm.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/glm-build/glm/CMakeFiles/glm.dir/build.make _deps/glm-build/glm/CMakeFiles/glm.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glm-build/glm/CMakeFiles/glm.dir/build.make _deps/glm-build/glm/CMakeFiles/glm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=65,66 "Built target glm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=74,75 "Built target glm"
 .PHONY : _deps/glm-build/glm/CMakeFiles/glm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -793,7 +898,7 @@ glm: _deps/glm-build/glm/CMakeFiles/glm.dir/rule
 # codegen rule for target.
 _deps/glm-build/glm/CMakeFiles/glm.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glm-build/glm/CMakeFiles/glm.dir/build.make _deps/glm-build/glm/CMakeFiles/glm.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=65,66 "Finished codegen for target glm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles --progress-num=74,75 "Finished codegen for target glm"
 .PHONY : _deps/glm-build/glm/CMakeFiles/glm.dir/codegen
 
 # clean rule for target.

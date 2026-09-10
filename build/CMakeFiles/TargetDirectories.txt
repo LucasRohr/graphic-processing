@@ -12,6 +12,9 @@
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/ExemploShaderExterno.dir
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/Ex7.1CameraEQuadrado.dir
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/Ex7.2CameraECubo.dir
+/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/Ex8_Textura_Estatica.dir
+/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/Ex8.2_Textura_Cubo.dir
+/Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/Ex8.3_Carregando_arquivo_Obj.dir
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/edit_cache.dir
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/rebuild_cache.dir
 /Users/lucasrohrcarreno/Documents/my-github/graphic-processing/build/CMakeFiles/list_install_components.dir
